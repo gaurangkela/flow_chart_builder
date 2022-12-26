@@ -151,6 +151,14 @@ function App() {
         value={nodeTitle} />
 
       <button onClick={UpdateNodeTitle} style={{ margin: "25px", backgroundColor: 'gray' }} >Update Node Name</button>
+
+      <div style={{ margin: "25px" }} >
+        When We create Any new Node By Drag and Drop, library does not provide adding Title, it provides default name like "New Item"
+        so if we want to change the title we can select node by double clicking on node and then insert title in input and click on update title button
+      </div>
+      <div style={{ margin: "25px" }} >
+        we can also add new default rectangular node by double clicking out side any node, if we have added title in input box it will take it from there, otherwise title will be blank, we can change it same way double clicking on node and update using input and button click
+      </div>
     </>
 
   );
